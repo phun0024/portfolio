@@ -1,21 +1,21 @@
-### My Web Portfolio
+# My Web Portfolio
 
-##### Discription
+## Discription
 
 I created my web portfolio without any frameworks. This brings me some advantages and disadvantages.
 
-###### For advatages:
+##### For advatages:
 
 I have a chance to remind the semantics and practice to make the order logical. I even can save time on being back and forth the website for copying the frameworks if I use.
 
-###### About some challenges I got:
+##### About some challenges I got:
 
 There are some decorations I haven't got. Besides, while I can save time on being back and forth for frameworks, I lost a chance to practice using them.
 
 I also feel that my design are a bit seperated because of the diffent colors of each section and the height is not suitable and match my idea in reality yet.
 
 
-##### What I learned from creating web portfolio
+## What I learned from creating web portfolio
 
 Honestly, I have learned a lot of things during this period.
 
@@ -25,6 +25,6 @@ Secondly, this also helps me have a clearer mind in aligning or justifying eleme
 
 Moreover, I found out the way to add content like tags in HTML in css to make the content on the website more like coding in HTML. However, I will use in another design after this because for me, this design has not satisfied me.
 
-##### My plan for the after of the class
+## My plan for the after of the class
 
 I planned to practice more animation to create effects and movements while the users scroll the pages, redesign the web portfolio and code it both with and without using frameworks.
