@@ -71,7 +71,13 @@
                 <h1>ABOUT ME</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sodales primis, mollis viverra conubia ligula inceptos laoreet libero tortor, nascetur non habitasse iaculis tempor nec egestas fames augue, platea porta integer nostra curae sed arcu. Nec ut diam vulputate ante scelerisque ridiculus lobortis orci mi curae himenaeos quis, senectus curabitur ullamcorper a porttitor nibh fermentum nisi cum morbi aliquam. Vitae pretium vestibulum dui gravida in potenti interdum, class rhoncus neque. Ullamcorper porttitor non pharetra cursus nisl mollis pellentesque primis penatibus platea, dictum himenaeos eget mi bibendum ad molestie aliquet curae quis quisque, nunc duis ac at elementum dui integer viverra tempus.</p>
                 <div class="profile-photo">
-                    <img src="./images/profile.jpg" alt="I'm holding a camera.">
+                    <picture>
+                        <source srcset="./images/mobile-profile.png" media="(max-width: 959px)">
+
+                        <source srcset="./images/profile.jpg" media="(min-width: 960px)">
+
+                        <img src="./images/profile.jpg" alt="I'm holding a camera.">
+                     </picture>
                 </div>
             </div>
 

@@ -410,7 +410,7 @@ nav li:focus {
         grid-row: 1 / 2;
         font-size: 3rem;
         text-align: left;
-        margin: 70px;
+        margin: 70px 0;
     }
 
     #about p {
