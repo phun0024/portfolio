@@ -138,6 +138,11 @@ nav a:visited {
     padding: 0 1rem;
 }
 
+nav li a:hover,
+nav li a:focus {
+	color: #BE810E;	
+}
+
 /* Banner */
 .banner {
     background-color: black;

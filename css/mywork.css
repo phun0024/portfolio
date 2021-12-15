@@ -137,10 +137,9 @@ nav a:visited {
     padding: 0 1rem;
 }
 
-nav li .current,
-nav li:hover,
-nav li:focus {
-    color: #BE810E;
+nav li a:hover,
+nav li a:focus {
+	color: #BE810E;	
 }
 
 /* ----------------------------------------
