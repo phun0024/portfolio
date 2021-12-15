@@ -23,3 +23,8 @@ Firstly, searching for ideas on Youtube helps me find out a cool function on XD,
 
 Secondly, this also helps me have a clearer mind in aligning or justifying elements in XD and pay more attention to the size of the artboard in designing process which affects directly to coding process after that.
 
+Moreover, I found out the way to add content like tags in HTML in css to make the content on the website more like coding in HTML. However, I will use in another design after this because for me, this design has not satisfied me.
+
+##### My plan for the after of the class
+
+I planned to practice more animation to create effects and movements while the users scroll the pages, redesign the web portfolio and code it both with and without using frameworks.
