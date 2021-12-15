@@ -115,10 +115,7 @@ nav ul {
     font-size: 1rem;
 }
 
-nav div {
-    margin: 1rem auto;
-}
-nav div li{
+nav li{
     padding: .3rem;
 }
 
@@ -139,12 +136,6 @@ nav a:visited {
     text-decoration: none;
     display: block;
     padding: 0 1rem;
-}
-
-nav li .current,
-nav li:hover,
-nav li:focus {
-    color: #BE810E;
 }
 
 /* Banner */
@@ -344,24 +335,20 @@ nav li:focus {
     ------------------------------------------- */
 
     /* Navigation */
-    .menu-web {
-        display: inherit;
-    }
-
     nav {
         height: 100px;
     }
 
-    .menu-web {
-        margin: 1rem 0 1rem 20%;
+    nav ul {
+        margin: 1rem 0;
     }
     
-    .menu-web li {
+    ul li {
         text-align: center;
         margin: 0 0 0 ;
     }
 
-    .menu-web .im {
+    ul .im {
         display: inline-block;
         font-size: 2rem;
     }
