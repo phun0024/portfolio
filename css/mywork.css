@@ -1,0 +1,246 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* ================================================================== */
+
+/* -----------------------------------------
+                Custom Styles
+-------------------------------------------- */
+
+html {
+    font-size: 15px;
+    font-family: monospace;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+body {
+    font-family: 'IBM Plex Mono', monospace;
+    line-height: 1.5rem;
+
+}
+
+img {
+    width: 100%;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    line-height: inherit;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+p {
+    margin: 1em;
+}
+
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+/* ----------------------------------------
+                Header
+------------------------------------------- */
+
+/* Navigation */
+nav {
+    background-color: #343432;
+    font-weight: normal;
+    font-size: 1.5rem;
+    height: 60px;
+    color: #efd488;
+    position: fixed;
+    width: 100%;
+    height: 190px;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    text-align: center;
+    font-size: 1rem;
+}
+
+nav div {
+    margin: 1rem auto;
+}
+nav div li{
+    padding: .3rem;
+}
+
+.logo-name {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+nav .im {
+    display: none;
+}
+
+/* LOVE HATE */
+nav a,
+nav a:link,
+nav a:visited {
+    color: #efd488;
+    text-decoration: none;
+    display: block;
+    padding: 0 1rem;
+}
+
+nav li .current,
+nav li:hover,
+nav li:focus {
+    color: #BE810E;
+}
+
+/* ----------------------------------------
+                Main
+------------------------------------------- */
+
+main {
+    color: #efd488;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 250px 10%;
+    align-items: center;
+}
+
+main img {
+    margin: 5rem auto;
+    border: 2px solid #EFD488;
+}
+
+main a {
+    color: #efd488;
+    text-decoration: none;
+}
+
+main .github-link {
+    color: #343432;
+    text-transform: uppercase;
+    background-color: #EFD488;
+    padding: .5rem 2rem;
+    font-weight: bold;
+    max-width: 110px;
+}
+
+main .back {
+    font-weight: lighter;
+    margin: 2rem auto;
+}
+
+@media screen and (min-width: 960px) {
+    html {
+        font-size: 16px;
+    }
+
+    /* ----------------------------------------
+                Header
+    ------------------------------------------- */
+
+    /* Navigation */
+    .menu-web {
+        display: inherit;
+    }
+
+    nav {
+        height: 100px;
+    }
+
+    .menu-web {
+        margin: 1rem 0 1rem 20%;
+    }
+    
+    .menu-web li {
+        text-align: center;
+        margin: 0 0 0 ;
+    }
+
+    .menu-web .im {
+        display: inline-block;
+        font-size: 2rem;
+    }
+
+    .logo-name {
+        font-size: 2.5rem;
+        align-self: center;
+    }
+
+    .menu-web h3 {
+        font-size: 1.2rem;
+    }
+    nav ul {
+        padding: 0 4rem;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    /* ----------------------------------------
+                Main
+    ------------------------------------------- */
+
+    main {
+        font-size: 1.5rem;
+        padding: 15rem 15%;
+    }
+
+    main .github-link {
+        padding: 1rem 2rem;
+        max-width: 150px;
+    }
+}
